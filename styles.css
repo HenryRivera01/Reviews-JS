@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container{
+    text-align: center;
+}
+
+
+img{
+    max-width:400px;
+    border-radius: 100%;
+}
+
+#info{
+    max-width:400px;
+    margin: 0 auto;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.buttons-container{
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
