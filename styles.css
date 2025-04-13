@@ -3,10 +3,15 @@ body{
     align-items: center;
     justify-content: center;
     height: 100%;
+    background-color: lightgray;
 }
 
 .container{
+    background-color: white;
+    padding: 2rem;
     text-align: center;
+    border-radius: 2rem;
+    box-shadow: 3.5px 3px 10px 5px gray;
 }
 
 
@@ -25,5 +30,20 @@ img{
 .buttons-container{
     gap: 2rem;
     margin-bottom: 1.5rem;
+    font-weight: bold;
 }
 
+#animal-img{
+    width: 350px;
+    height: 350px;
+}
+
+.buttons-container button{
+    height: 2rem;
+    width: 5rem;
+}
+
+.random-button{
+    padding: .8rem;
+
+}
